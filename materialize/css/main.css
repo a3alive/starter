@@ -1,0 +1,25 @@
+/* ========================================================================== Author's custom styles ========================================================================== */
+body { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; min-height: 100vh; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; background-color: #FFF; }
+
+main { -webkit-box-flex: 1; -webkit-flex: 1 0 auto; -ms-flex: 1 0 auto; flex: 1 0 auto; }
+
+nav ul a, nav .brand-logo { color: #444; }
+
+p { line-height: 2rem; }
+
+.button-collapse { color: #1b1b1b; }
+
+.parallax-container { min-height: 380px; line-height: 0; height: auto; color: rgba(255, 255, 255, 0.9); }
+.parallax-container .section { width: 100%; }
+
+.icon-block { padding: 0 15px; }
+.icon-block .material-icons { font-size: inherit; }
+
+footer.page-footer { margin: 0; background-color: #26a69a; }
+
+/* ========================================================================== Responsive styles ========================================================================== */
+@media only screen and (max-width: 992px) { .parallax-container .section { position: absolute; top: 40%; }
+  #index-banner .section { top: 10%; } }
+@media only screen and (max-width: 600px) { #index-banner .section { top: 0; } }
+
+/*# sourceMappingURL=main.css.map */
