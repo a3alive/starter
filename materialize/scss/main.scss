@@ -20,10 +20,22 @@ nav {
     .brand-logo {
         color: $color-light;
     }
+    
+    .brand-logo {
+        line-height: 0;
+        img {
+            height: 64px;
+            padding: 10px 0;
+        }
+    }
 }
 
 p {
     line-height: 2rem;
+}
+
+.navbar-fixed {
+    z-index: 997;
 }
 
 .button-collapse {
@@ -50,6 +62,17 @@ p {
 footer.page-footer {
     margin: 0;
     background-color: $color-accent;
+}
+
+.footer-links {
+    float: right;
+    margin: 0;
+    li {
+        float: left;
+        a {
+            padding: 0 10px;
+        }
+    }
 }
 
 

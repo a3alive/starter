@@ -4,8 +4,12 @@ body { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; displa
 main { -webkit-box-flex: 1; -webkit-flex: 1 0 auto; -ms-flex: 1 0 auto; flex: 1 0 auto; }
 
 nav ul a, nav .brand-logo { color: #444; }
+nav .brand-logo { line-height: 0; }
+nav .brand-logo img { height: 64px; padding: 10px 0; }
 
 p { line-height: 2rem; }
+
+.navbar-fixed { z-index: 997; }
 
 .button-collapse { color: #1b1b1b; }
 
@@ -17,9 +21,18 @@ p { line-height: 2rem; }
 
 footer.page-footer { margin: 0; background-color: #26a69a; }
 
+.footer-links { float: right; margin: 0; }
+.footer-links li { float: left; }
+.footer-links li a { padding: 0 10px; }
+
 /* ========================================================================== Responsive styles ========================================================================== */
 @media only screen and (max-width: 992px) { .parallax-container .section { position: absolute; top: 40%; }
-  #index-banner .section { top: 10%; } }
-@media only screen and (max-width: 600px) { #index-banner .section { top: 0; } }
-
+  #index-banner .section { top: 10%; }
+  .navbar-fixed { height: 50px; }
+  nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i { height: 50px; line-height: 50px; }
+  nav .brand-logo img { height: 50px; }
+  nav .button-collapse i { font-size: 2rem; } }
+@media only screen and (max-width: 600px) { #index-banner .section { top: 0; }
+  footer.page-footer .footer-copyright { height: auto; }
+  .footer-links { float: left; } }
 /*# sourceMappingURL=main.css.map */

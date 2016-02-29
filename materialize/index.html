@@ -60,14 +60,29 @@
                             </ul>
                         </li>
                     </ul>
-
-                    <ul id="nav-mobile" class="side-nav">
-                        <li><a href="#!">Sass</a></li>
-                        <li><a href="#!">Components</a></li>
-                    </ul>
+                    
                     <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
                 </div>
             </nav>
+        </div>
+        
+        <div id="nav-mobile" class="side-nav">    
+            <ul>
+                <li><a href="#!">Sass</a></li>
+                <li><a href="#!">Components</a></li>
+                <li class="no-padding">
+                    <ul class="collapsible collapsible-accordion">
+                        <li>
+                            <a class="collapsible-header">Dropdown<i class="material-icons right">arrow_drop_down</i></a>
+                            <ul class="collapsible-body">
+                                <li><a href="#!">one</a></li>
+                                <li><a href="#!">two</a></li>
+                                <li><a href="#!">three</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
         </div>
         
     </header>
@@ -204,6 +219,12 @@
         <div class="footer-copyright">
             <div class="container">
                 &copy; Company <span id="copyright-year"></span>
+                <ul class="footer-links">
+                    <li><a class="white-text" href="#!">Link 1</a></li>
+                    <li><a class="white-text" href="#!">Link 2</a></li>
+                    <li><a class="white-text" href="#!">Link 3</a></li>
+                    <li><a class="white-text" href="#!">Link 4</a></li>
+                </ul>
             </div>
         </div>
     </footer>
