@@ -1,38 +1,139 @@
-/* ========================================================================== Author's custom styles ========================================================================== */
-body { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; min-height: 100vh; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; background-color: #FFF; }
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #FFF;
+}
 
-main { -webkit-box-flex: 1; -webkit-flex: 1 0 auto; -ms-flex: 1 0 auto; flex: 1 0 auto; }
+main {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
 
-nav ul a, nav .brand-logo { color: #444; }
-nav .brand-logo { line-height: 0; }
-nav .brand-logo img { height: 64px; padding: 10px 0; }
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+nav .brand-logo {
+  line-height: 0;
+}
+nav .brand-logo img {
+  height: 64px;
+  padding: 10px 0;
+}
 
-p { line-height: 2rem; }
+p {
+  line-height: 2rem;
+}
 
-.navbar-fixed { z-index: 997; }
+.navbar-fixed {
+  z-index: 997;
+}
 
-.button-collapse { color: #1b1b1b; }
+.button-collapse {
+  color: #1b1b1b;
+}
 
-.parallax-container { min-height: 380px; line-height: 0; height: auto; color: rgba(255, 255, 255, 0.9); }
-.parallax-container .section { width: 100%; }
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, 0.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
 
-.icon-block { padding: 0 15px; }
-.icon-block .material-icons { font-size: inherit; }
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
 
-footer.page-footer { margin: 0; background-color: #26a69a; }
+footer.page-footer {
+  margin: 0;
+  background-color: #26a69a;
+}
 
-.footer-links { float: right; margin: 0; }
-.footer-links li { float: left; }
-.footer-links li a { padding: 0 10px; }
+.footer-links {
+  float: right;
+  margin: 0;
+}
+.footer-links li {
+  float: left;
+}
+.footer-links li a {
+  padding: 0 10px;
+}
 
-/* ========================================================================== Responsive styles ========================================================================== */
-@media only screen and (max-width: 992px) { .parallax-container .section { position: absolute; top: 40%; }
-  #index-banner .section { top: 10%; }
-  .navbar-fixed { height: 50px; }
-  nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i { height: 50px; line-height: 50px; }
-  nav .brand-logo img { height: 50px; }
-  nav .button-collapse i { font-size: 2rem; } }
-@media only screen and (max-width: 600px) { #index-banner .section { top: 0; }
-  footer.page-footer .footer-copyright { height: auto; }
-  .footer-links { float: left; } }
+/* ==========================================================================
+   Responsive styles
+   ========================================================================== */
+@media only screen and (min-width: 601px) {
+  /*CSS here*/
+}
+@media only screen and (min-width: 993px) {
+  /*CSS here*/
+}
+@media only screen and (max-width: 992px) {
+  /*CSS here*/
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+
+  #index-banner .section {
+    top: 10%;
+  }
+
+  .navbar-fixed {
+    height: 50px;
+  }
+
+  nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+    height: 50px;
+    line-height: 50px;
+  }
+
+  nav .brand-logo img {
+    height: 50px;
+  }
+  nav .button-collapse i {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /*CSS here*/
+  #index-banner .section {
+    top: 0;
+  }
+
+  footer.page-footer .footer-copyright {
+    height: auto;
+  }
+
+  .footer-links {
+    float: left;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  /*CSS here*/
+}
+@media only screen and (min-width: 993px) and (max-width: 1199px) {
+  /*CSS here*/
+}
+
 /*# sourceMappingURL=main.css.map */
