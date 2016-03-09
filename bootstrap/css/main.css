@@ -1,8 +1,53 @@
-/* ========================================================================== Author's custom styles ========================================================================== */
-body { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; min-height: 100vh; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; padding-top: 50px; }
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 50px;
+}
 
-main { -webkit-box-flex: 1; -webkit-flex: 1 0 auto; -ms-flex: 1 0 auto; flex: 1 0 auto; }
+main {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
 
-/* ========================================================================== Responsive styles ========================================================================== */
+/* ==========================================================================
+   Responsive styles
+   ========================================================================== */
+@media only screen and (min-width: 768px) {
+  /*CSS here*/
+}
+@media only screen and (min-width: 992px) {
+  /*CSS here*/
+}
+@media only screen and (min-width: 1200px) {
+  /*CSS here*/
+}
+@media only screen and (max-width: 1199px) {
+  /*CSS here*/
+}
+@media only screen and (max-width: 991px) {
+  /*CSS here*/
+}
+@media only screen and (max-width: 767px) {
+  /*CSS here*/
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /*CSS here*/
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /*CSS here*/
+}
 
 /*# sourceMappingURL=main.css.map */
